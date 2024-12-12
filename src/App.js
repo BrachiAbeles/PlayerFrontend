@@ -1,24 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import { Routes, Route } from 'react-router-dom'
+import MyGroop from './MyGroop';
+import MyScore from './MyScore';
+import Home from './Home';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return (<>
+  <script src="https://unpkg.com/spacingjs" defer></script>
+  <Home/>
+    <Routes>
+      {/* <Route path="/" element={<Home />} /> */}
+      <Route path="/myGroop" element={<MyGroop />} />
+      <Route path="/api/players" element={<MyScore />} />
+    </Routes>
+  </>
   );
 }
 

@@ -1,0 +1,137 @@
+body {
+    background-color: #f0f0f0;
+}
+
+#container {
+    margin-left: 35%;
+    justify-content: center;
+}
+
+button {
+    border: none;
+}
+
+#divButtons2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    margin-left: 4px;
+    height: 200px;
+    /* הוסף גובה כדי שיהיה מקום להתפשט */
+    justify-content: space-around;
+}
+
+#divButtons3 {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    /* סידור אנכי של האלמנטים */
+    justify-content: space-between;
+    /* מרחקים שווים בין האלמנטים */
+    height: 150px;
+    /* הוסף גובה כדי שיהיה מקום להתפשט */
+}
+
+
+#meImg {
+    width: 54.55px;
+    height: 59.97px;
+    rotate: -180;
+    left: 207.55px;
+    top: 462px;
+}
+
+#continue {
+    background-color: #FF8F73;
+    width: 317px;
+    height: 62px;
+    top: 550px;
+    left: 22px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-style: 'MeodedPashut_OE';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 1%;
+    text-align: center;
+}
+
+
+
+#score {
+    background-color: #7C8DFF;
+    /* margin-right: 250px;   */
+    width: 110px;
+    /* height: 38px; */
+}
+
+#groop {
+    background-color: #CECECE;
+}
+
+#avatar1 {
+    width: 52.83px;
+    height: 59.24px;
+    top: 176px;
+    left: 207.83px;
+    rotate: -180°;
+}
+
+#avatar2 {
+    width: 52.83px;
+    height: 60.34px;
+    top: 253px;
+    left: 208px;
+    rotate: -180°;
+
+}
+
+#avatar3 {
+    width: 53.41px;
+    height: 61.47px;
+    top: 329px;
+    left: 207.41px;
+    rotate: -180°;
+}
+
+.bottonAvatar {
+    /* border: 1px solid black; */
+    /* display: flex; */
+    /* align-items: center; */
+    font-family: ' Ezer Meoded Pashut';
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    width: 318px;
+    height: 52px;
+    /* margin-left: 8px; */
+    background-color: #FFFFFF;
+    color: #7C8DFF;
+    border-radius: 10px;
+    top: 183px;
+    left: 21px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#me {
+    width: 318px;
+    height: 59.97px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: #7C8DFF;
+    top: 468.95px;
+    color:#FFFFFF;
+}
+.playerPosition{
+    background-color: #7C8DFF;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    color:#f0f0f0;
+}

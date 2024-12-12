@@ -1,0 +1,70 @@
+#head{
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+}
+#logo {
+    width: 86px;
+    height: 86px;
+    margin-top: 9px;
+    /* margin-left: 135px; */
+}
+#back{
+    width: 12px;
+    height: 11px;
+    margin-top: 41px;
+    /* margin-left: 21px; */
+}
+#category{
+    width: 22px;
+    height: 19px;
+    margin-top: 37px;
+    /* margin-left: 35px; */
+}
+#buttonStack {
+    position: relative;
+    width: 300px;  /* רוחב כפתור "הקבוצה שלי" */
+    height: 100px; /* גובה כפתור "הקבוצה שלי" */
+    margin-left: 3%;
+}
+
+/* כפתור "הקבוצה שלי" */
+#groop {
+    padding-left: 30px; /* הזזת הטקסט ימינה */
+    top: 5%;
+    position: relative; /* מאפשר מיקום יחסי לכפתור הקטן */
+    width: 215px;
+    height: 38px;
+    font-size: 15px;
+    border-radius: 500px;
+    background-color:#CECECE; /* צבע כחול */
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    line-height: 25px;       /* מוודא שהוא מעל לכפתור הגדול */
+    font-weight: 900;
+    font-family: 'Ezer Meoded Pashut '   ;
+}
+
+/* כפתור "הניקוד שלי" */
+#score {
+    font-family: 'Ezer Meoded Pashut '   ;
+    font-weight: 900;
+    border-radius: 500px;
+    position: absolute; /* ממוקם בתוך כפתור "הקבוצה שלי" */
+    width: 140px;         /* חצי מהרוחב */
+    height: 38px;        /* חצי מהגובה */
+    top: 50%;           /* ממורכז אנכית */
+    left: 80%;          /* ממורכז אופקית */
+    transform: translate(-50%, -50%); /* ממקם את המרכז של הכפתור הקטן במרכז הגדול */
+    font-size: 15px;
+    background-color:#7C8DFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 2;  
+    line-height: 25px;       /* מוודא שהוא מעל לכפתור הגדול */
+}

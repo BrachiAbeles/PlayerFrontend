@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Ezer+Meoded+Pashut&display=swap');
+
 .App {
   text-align: center;
 }
+  body {
+    font-family: 'Ezer Meoded Pashut', sans-serif; /* פונט ראשי עם גיבוי */
+}
+
+
 
 .App-logo {
   height: 40vmin;
